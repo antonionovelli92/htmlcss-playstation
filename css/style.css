@@ -15,13 +15,8 @@ section {
 
 img {
     max-width: 100%;
-
-
 }
 
-header {
-    z-index: 1;
-}
 
 #jumbotron {
     background-image: url(../img/jumbo-bg.png);
@@ -35,10 +30,13 @@ header {
 }
 
 #jumbotron img {
-
     height: 65px;
     width: 225px;
+}
 
+#games-options img {
+    border-radius: 25px;
+    padding: 5px;
 }
 
 #it-takes-two {
