@@ -2,6 +2,7 @@
 :root {
     --it-takes: #1F1F1F;
     --ps-plus: #BEBCBB;
+    --ps-now: #161C3B;
 }
 
 /* generics */
@@ -66,4 +67,8 @@ header {
 
 #sconti img {
     padding: 20px;
+}
+
+#ps-now {
+    background-color: var(--ps-now);
 }
