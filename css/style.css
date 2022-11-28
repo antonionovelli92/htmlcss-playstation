@@ -1,7 +1,12 @@
+/* colors */
+:root {
+    --it-takes: #1F1F1F;
+}
+
 /* generics */
 section {
     min-height: 300px;
-    margin: 30px auto;
+    margin-top: 30px;
 }
 
 .border-black {
@@ -40,4 +45,13 @@ header {
     max-width: 100%;
     height: auto;
     min-height: 500px;
+}
+
+#nuove-uscite {
+    background-color: var(--it-takes);
+}
+
+#nuove-uscite img {
+    border-radius: 20px;
+    padding: 5px;
 }
