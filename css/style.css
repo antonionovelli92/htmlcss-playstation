@@ -11,3 +11,22 @@ section {
     border: 1px dashed red;
 
 }
+
+img {
+    max-width: 100%;
+}
+
+header {
+    z-index: 1;
+}
+
+#jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+    min-height: 500px;
+    margin-top: 115px;
+}
