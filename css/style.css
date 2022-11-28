@@ -1,0 +1,13 @@
+/* generics */
+section {
+    min-height: 500px;
+}
+
+.border-black {
+    border: 1px dashed black;
+}
+
+.border-red {
+    border: 1px dashed red;
+
+}
