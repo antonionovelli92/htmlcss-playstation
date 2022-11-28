@@ -20,6 +20,7 @@ img {
 }
 
 header {
+    position: relative;
     z-index: 1;
 }
 
@@ -97,8 +98,20 @@ header {
 }
 
 #nuove-uscite img {
-    border-radius: 20px;
-    padding: 5px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#nuove-uscite img:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px var(--text-no-limits);
+    ;
+
+}
+
+#nuove-uscite h6 {
+    margin-bottom: 40px;
+    margin-top: 10px;
 }
 
 #ps-plus {
