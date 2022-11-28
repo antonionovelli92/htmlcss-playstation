@@ -114,11 +114,13 @@ header {
     margin-top: 10px;
 }
 
+
+
 #ps-plus {
     background-color: var(--ps-plus);
 }
 
-#ps-plus img {}
+
 
 #sconti img {
     padding: 20px;
