@@ -79,6 +79,19 @@ header {
     min-height: 500px;
 }
 
+#it-takes-two .my-bg-card {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+
+    border-radius: 20px;
+
+}
+
+#it-takes-two img {
+    height: 250px;
+    width: 300px;
+}
+
 #nuove-uscite {
     background-color: var(--it-takes);
 }
