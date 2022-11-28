@@ -3,6 +3,7 @@
     --it-takes: #1F1F1F;
     --ps-plus: #BEBCBB;
     --ps-now: #161C3B;
+    --ps-footer: #00439B;
 }
 
 /* generics */
@@ -11,14 +12,6 @@ section {
     margin-top: 30px;
 }
 
-.border-black {
-    border: 1px dashed black;
-}
-
-.border-red {
-    border: 1px dashed red;
-
-}
 
 img {
     max-width: 100%;
@@ -72,3 +65,12 @@ header {
 #ps-now {
     background-color: var(--ps-now);
 }
+
+#ps-footer {
+    background-color: var(--ps-footer);
+}
+
+/* 
+#ps-footer .white-logo {
+    filter: brightness(0) invert(1);
+} */
