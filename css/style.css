@@ -1,7 +1,7 @@
 /* colors */
 :root {
     --it-takes: #1F1F1F;
-    --ps-plus: #BEBCBB:
+    --ps-plus: #BEBCBB;
 }
 
 /* generics */
@@ -56,3 +56,9 @@ header {
     border-radius: 20px;
     padding: 5px;
 }
+
+#ps-plus {
+    background-color: var(--ps-plus);
+}
+
+#ps-plus img {}
