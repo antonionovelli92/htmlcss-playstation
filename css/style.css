@@ -21,6 +21,7 @@ section {
 
 img {
     max-width: 100%;
+
 }
 
 header {
@@ -62,3 +63,7 @@ header {
 }
 
 #ps-plus img {}
+
+#sconti img {
+    padding: 20px;
+}
