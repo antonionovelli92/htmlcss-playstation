@@ -4,11 +4,13 @@
     --ps-plus: #BEBCBB;
     --ps-now: #161C3B;
     --ps-footer: #00439B;
+    --text-no-limits: #589FDD;
 }
 
 /* generics */
 section {
     min-height: 300px;
+    /* todo ricordati di togliere la min height */
     margin-top: 30px;
 }
 
@@ -17,6 +19,9 @@ img {
     max-width: 100%;
 }
 
+header {
+    z-index: 1;
+}
 
 #jumbotron {
     background-image: url(../img/jumbo-bg.png);
@@ -38,6 +43,31 @@ img {
     border-radius: 25px;
     padding: 5px;
 }
+
+#games-options img:hover {
+    border: 3px solid var(--text-no-limits);
+    cursor: pointer;
+    padding: 2px;
+    transform: scale(1.1);
+}
+
+
+#no-limits .my-blu-text {
+    color: var(--text-no-limits);
+}
+
+#no-limits .items {
+    opacity: 0.5;
+
+}
+
+#no-limits .items:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.1);
+    border-bottom: 2px solid var(--text-no-limits);
+}
+
 
 #it-takes-two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
