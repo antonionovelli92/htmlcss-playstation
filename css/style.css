@@ -20,6 +20,16 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 header {
     position: relative;
     z-index: 1;
@@ -119,10 +129,6 @@ header {
 }
 
 
-/* #esplora p {
-    margin-bottom: 30px;
-} */
-
 #ps-plus {
     background-color: var(--ps-plus);
 }
@@ -137,8 +143,6 @@ header {
     height: 100px;
     width: auto;
 }
-
-
 
 #sconti img {
     padding: 20px;
@@ -155,9 +159,8 @@ header {
     background-color: var(--ps-now);
 }
 
-#social img {
-    padding: 10px;
-}
+/* #social img  */
+
 
 #ps-footer {
     background-color: var(--ps-footer);
@@ -168,15 +171,7 @@ header {
     height: 100px;
 }
 
-ul {
-    list-style-type: none;
-}
 
-a {
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 #ps-footer p a {
     text-decoration: underline;
