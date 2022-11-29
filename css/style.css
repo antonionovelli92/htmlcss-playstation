@@ -35,6 +35,11 @@ header {
     z-index: 1;
 }
 
+.navbar .btn:hover {
+    border: 1px solid white;
+    box-shadow: 0 0 10px black;
+}
+
 #jumbotron {
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
@@ -65,6 +70,12 @@ header {
     transform: scale(1.1);
 }
 
+#jumbotron .btn:hover,
+#it-takes-two .btn:hover {
+    border: 1px solid black;
+    box-shadow: 0 0 10px red;
+}
+
 
 #no-limits .my-blu-text {
     color: var(--text-no-limits);
@@ -84,6 +95,11 @@ header {
     border-bottom: 2px solid var(--text-no-limits);
 }
 
+#no-limits .btn:hover,
+#esplora .btn:hover {
+    border: 1px solid white;
+    box-shadow: 0 0 10px var(--btn-text-bg-blu);
+}
 
 #it-takes-two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -119,7 +135,7 @@ header {
 #nuove-uscite img:hover {
     cursor: pointer;
     box-shadow: 0 0 10px var(--text-no-limits);
-    ;
+
 
 }
 
@@ -144,6 +160,12 @@ header {
     width: auto;
 }
 
+#ps-plus .btn:hover,
+#ps-now .btn:hover {
+    border: 1px solid black;
+    box-shadow: 0 0 10px var(--btn-ps-plus);
+}
+
 #sconti img {
     padding: 20px;
 }
@@ -159,8 +181,6 @@ header {
     background-color: var(--ps-now);
 }
 
-/* #social img  */
-
 
 #ps-footer {
     background-color: var(--ps-footer);
@@ -170,7 +190,6 @@ header {
     width: 200px;
     height: 100px;
 }
-
 
 
 #ps-footer p a {
