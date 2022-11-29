@@ -11,7 +11,6 @@
 
 /* generics */
 section {
-    min-height: 300px;
     /* todo ricordati di togliere la min height */
     margin-top: 30px;
 }
@@ -145,6 +144,26 @@ header {
 #ps-footer {
     background-color: var(--ps-footer);
 }
+
+#ps-footer img {
+    width: 200px;
+    height: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#ps-footer p a {
+    text-decoration: underline;
+}
+
 
 /* 
 #ps-footer .white-logo {
