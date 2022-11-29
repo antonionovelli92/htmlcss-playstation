@@ -171,9 +171,9 @@ header {
 }
 
 #sconti img:hover,
-#social img:hover {
+#social .img-fluid:hover {
     cursor: pointer;
-    box-shadow: 0 0 1px var(--text-no-limits);
+    box-shadow: 0 0 3px var(--it-takes);
 
 }
 
