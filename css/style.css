@@ -5,6 +5,8 @@
     --ps-now: #161C3B;
     --ps-footer: #00439B;
     --text-no-limits: #589FDD;
+    --btn-ps-plus: #D9DADC;
+    --btn-text-bg-blu: #2E66E6;
 }
 
 /* generics */
@@ -120,6 +122,12 @@ header {
     background-color: var(--ps-plus);
 }
 
+#ps-plus .my-btn-gray {
+    background-color: var(--btn-ps-plus);
+    color: var(--btn-text-bg-blu);
+
+}
+
 
 
 #sconti img {
@@ -128,6 +136,10 @@ header {
 
 #ps-now {
     background-color: var(--ps-now);
+}
+
+#social img {
+    padding: 10px;
 }
 
 #ps-footer {
