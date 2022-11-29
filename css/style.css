@@ -44,12 +44,14 @@ header {
 #games-options img {
     border-radius: 25px;
     padding: 5px;
+    transition: 0.8s;
 }
 
 #games-options img:hover {
     border: 3px solid var(--text-no-limits);
     cursor: pointer;
     padding: 2px;
+    transition: 0.8s;
     transform: scale(1.1);
 }
 
@@ -60,11 +62,13 @@ header {
 
 #no-limits .items {
     opacity: 0.5;
+    transition: 1s;
 
 }
 
 #no-limits .items:hover {
     opacity: 1;
+    transition: 1s;
     cursor: pointer;
     transform: scale(1.1);
     border-bottom: 2px solid var(--text-no-limits);
@@ -84,7 +88,6 @@ header {
 #it-takes-two .my-bg-card {
     background-color: rgba(0, 0, 0, 0.1);
     color: white;
-
     border-radius: 20px;
 
 }
@@ -116,6 +119,9 @@ header {
 }
 
 
+/* #esplora p {
+    margin-bottom: 30px;
+} */
 
 #ps-plus {
     background-color: var(--ps-plus);
@@ -127,10 +133,22 @@ header {
 
 }
 
+#ps-plus .logo-plus {
+    height: 100px;
+    width: auto;
+}
+
 
 
 #sconti img {
     padding: 20px;
+}
+
+#sconti img:hover,
+#social img:hover {
+    cursor: pointer;
+    box-shadow: 0 0 1px var(--text-no-limits);
+
 }
 
 #ps-now {
@@ -163,9 +181,3 @@ a {
 #ps-footer p a {
     text-decoration: underline;
 }
-
-
-/* 
-#ps-footer .white-logo {
-    filter: brightness(0) invert(1);
-} */
