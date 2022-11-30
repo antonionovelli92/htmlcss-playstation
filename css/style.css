@@ -29,6 +29,8 @@ a {
     cursor: pointer;
 }
 
+/* HEADER */
+
 header {
     position: relative;
     z-index: 1;
@@ -38,6 +40,8 @@ header {
     border: 1px solid white;
     box-shadow: 0 0 10px black;
 }
+
+/* JUMBOTRON */
 
 #jumbotron {
     background-image: url(../img/jumbo-bg.png);
@@ -54,6 +58,8 @@ header {
     height: 65px;
     width: 225px;
 }
+
+/* SEZIONE GAMES-OPTIONS */
 
 #games-options img {
     border-radius: 25px;
@@ -74,6 +80,8 @@ header {
     border: 1px solid black;
     box-shadow: 0 0 10px red;
 }
+
+/* SEZIONE NO-LIMITS */
 
 
 #no-limits .my-blu-text {
@@ -100,6 +108,9 @@ header {
     box-shadow: 0 0 10px var(--btn-text-bg-blu);
 }
 
+/* SEZIONE IT TAKES TWO */
+
+
 #it-takes-two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
@@ -122,6 +133,9 @@ header {
     width: 300px;
 }
 
+/* SEZIONE NUOVE USCITE */
+
+
 #nuove-uscite {
     background-color: var(--it-takes);
 }
@@ -142,6 +156,8 @@ header {
     margin-bottom: 40px;
     margin-top: 10px;
 }
+
+/* SEZIONE PS-PLUS */
 
 
 #ps-plus {
@@ -165,6 +181,9 @@ header {
     box-shadow: 0 0 10px var(--btn-ps-plus);
 }
 
+/* SEZIONE SCONTI */
+
+
 #sconti img {
     padding: 20px;
 }
@@ -176,10 +195,13 @@ header {
 
 }
 
+/* SEZIONE PS-NOW */
+
 #ps-now {
     background-color: var(--ps-now);
 }
 
+/* FOOTER */
 
 #ps-footer {
     background-color: var(--ps-footer);
